@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
-.attribution { font-size: 11px; text-align: center; }
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
 
+:root{
+    --cor00: hsl(0, 100%, 74%);
+    --cor01: hsl(154, 59%, 51%);
+    --cor02: hsl(248, 32%, 49%);
+    --cor03: hsl(249, 10%, 26%);
+    --cor04: hsl(246, 25%, 77%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
